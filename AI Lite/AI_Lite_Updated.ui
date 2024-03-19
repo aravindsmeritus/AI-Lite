@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ebf0f6;
+color: rgb(0, 85, 0);</string>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Rounded</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="elideMode">
+     <enum>Qt::ElideNone</enum>
+    </property>
+    <property name="usesScrollButtons">
+     <bool>true</bool>
+    </property>
+    <property name="documentMode">
+     <bool>false</bool>
+    </property>
+    <property name="tabsClosable">
+     <bool>false</bool>
+    </property>
+    <property name="movable">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Welcome</string>
+     </attribute>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1520</width>
+        <height>1080</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Software Interface/Home Page/Icons &amp; Logos/For Saving purpose 1.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="select_bot">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>350</y>
+        <width>287</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(158, 124, 190);
+border-color: rgb(85, 255, 127);
+color: rgb(255, 255, 255);
+font: 63 12pt &quot;Railway&quot;;
+background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #642c99, stop:1 #3f1368);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>--Select--</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>AILITE_pythonbot</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>AILITE_air</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>AILITE_adventurer</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="welcome_display">
+      <property name="geometry">
+       <rect>
+        <x>584</x>
+        <y>430</y>
+        <width>400</width>
+        <height>45</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="bot_connect_red">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>355</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Software Interface/Home Page/Icons &amp; Logos/Red Status.svg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="bot_connect_green">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>355</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Software Interface/Home Page/Icons &amp; Logos/Green Status .svg</pixmap>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Magic Hands</string>
+     </attribute>
+     <widget class="QLabel" name="cam_label">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>339</y>
+        <width>500</width>
+        <height>400</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(182, 182, 182);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>315</x>
+        <y>300</y>
+        <width>250</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: #302c4c;
+font: 57 12pt &quot;Poppins Medium&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Hi! Show me a Gesture&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="stop_label">
+      <property name="geometry">
+       <rect>
+        <x>506</x>
+        <y>920</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);font: 12pt &quot;Railway&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Stop&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="run_label">
+      <property name="geometry">
+       <rect>
+        <x>662</x>
+        <y>920</y>
+        <width>50</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);font: 12pt &quot;Railway&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Run&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="left_label">
+      <property name="geometry">
+       <rect>
+        <x>796</x>
+        <y>920</y>
+        <width>60</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);font: 12pt &quot;Railway&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Left&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="right_label">
+      <property name="geometry">
+       <rect>
+        <x>946</x>
+        <y>920</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);font: 12pt &quot;Railway&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Right&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="stop_label_icon">
+      <property name="geometry">
+       <rect>
+        <x>506</x>
+        <y>830</y>
+        <width>80</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Ui_Images/stop-removebg-preview (1).png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="right_label_icon">
+      <property name="geometry">
+       <rect>
+        <x>946</x>
+        <y>830</y>
+        <width>80</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Ui_Images/right_1-removebg-preview (1).png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="run_label_icon">
+      <property name="geometry">
+       <rect>
+        <x>646</x>
+        <y>830</y>
+        <width>80</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Ui_Images/run-removebg-preview (1).png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="left_label_icon">
+      <property name="geometry">
+       <rect>
+        <x>796</x>
+        <y>830</y>
+        <width>80</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Ui_Images/left_1-removebg-preview (1).png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="close_cam">
+      <property name="geometry">
+       <rect>
+        <x>664</x>
+        <y>310</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 9pt bold  &quot;Adobe Pi Std&quot;;
+color: rgb(0, 85, 0);
+border-radius: 5px;
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Software Interface/Individual Functions Page/Icons &amp; Logos/Close.svg</normaloff>Software Interface/Individual Functions Page/Icons &amp; Logos/Close.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>965</x>
+        <y>300</y>
+        <width>250</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: #302c4c;
+font: 57 12pt &quot;Poppins Medium&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;I'm AI - Lite&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="botcam_label">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>339</y>
+        <width>500</width>
+        <height>400</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(182, 182, 182);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="close_botcam">
+      <property name="geometry">
+       <rect>
+        <x>1314</x>
+        <y>310</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 9pt bold  &quot;Adobe Pi Std&quot;;
+color: rgb(0, 85, 0);
+border-radius: 5px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Software Interface/Individual Functions Page/Icons &amp; Logos/Close.svg</normaloff>Software Interface/Individual Functions Page/Icons &amp; Logos/Close.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="stop_led_label">
+      <property name="geometry">
+       <rect>
+        <x>533</x>
+        <y>960</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="start_cam">
+      <property name="geometry">
+       <rect>
+        <x>724</x>
+        <y>760</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Constantia</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75  bold 9pt &quot;Constantia&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(85, 255, 127);
+
+</string>
+      </property>
+      <property name="text">
+       <string>START</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="gesture_bot_status">
+      <property name="geometry">
+       <rect>
+        <x>297</x>
+        <y>220</y>
+        <width>287</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #642c99, stop:1 #3f1368);
+border-radius:7px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="run_led_label">
+      <property name="geometry">
+       <rect>
+        <x>676</x>
+        <y>960</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="right_led_label">
+      <property name="geometry">
+       <rect>
+        <x>980</x>
+        <y>960</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="left_led_label">
+      <property name="geometry">
+       <rect>
+        <x>816</x>
+        <y>960</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1517</width>
+        <height>187</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Software Interface/Home Page/Icons &amp; Logos/FunctionPage_Label.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="gesture_botcam_status">
+      <property name="geometry">
+       <rect>
+        <x>947</x>
+        <y>220</y>
+        <width>287</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #642c99, stop:1 #3f1368);
+border-radius:7px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Traffic Signs</string>
+     </attribute>
+     <widget class="QLabel" name="botcam_label_2">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>339</y>
+        <width>500</width>
+        <height>400</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(182, 182, 182);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="right_label_icon_2">
+      <property name="geometry">
+       <rect>
+        <x>946</x>
+        <y>840</y>
+        <width>80</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Software Interface/Individual Functions Page/Icons &amp; Logos/Turn-Right (1).png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="close_cam_2">
+      <property name="geometry">
+       <rect>
+        <x>664</x>
+        <y>310</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 9pt bold  &quot;Adobe Pi Std&quot;;
+color: rgb(0, 85, 0);
+border-radius:5px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Software Interface/Individual Functions Page/Icons &amp; Logos/Close.svg</normaloff>Software Interface/Individual Functions Page/Icons &amp; Logos/Close.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="stop_led_label_1">
+      <property name="geometry">
+       <rect>
+        <x>536</x>
+        <y>965</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="stop_label_icon_2">
+      <property name="geometry">
+       <rect>
+        <x>506</x>
+        <y>840</y>
+        <width>80</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Software Interface/Individual Functions Page/Icons &amp; Logos/stop (1).png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cam_label_2">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>339</y>
+        <width>500</width>
+        <height>400</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(182, 182, 182);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="start_cam_2">
+      <property name="geometry">
+       <rect>
+        <x>724</x>
+        <y>760</y>
+        <width>80</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Constantia</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75  bold 9pt &quot;Constantia&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(85, 255, 127);
+
+</string>
+      </property>
+      <property name="text">
+       <string>START</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="close_botcam_2">
+      <property name="geometry">
+       <rect>
+        <x>1314</x>
+        <y>310</y>
+        <width>25</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 9pt bold  &quot;Adobe Pi Std&quot;;
+color: rgb(0, 85, 0);
+border-radius:5px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Software Interface/Individual Functions Page/Icons &amp; Logos/Close.svg</normaloff>Software Interface/Individual Functions Page/Icons &amp; Logos/Close.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="go_label_icon">
+      <property name="geometry">
+       <rect>
+        <x>646</x>
+        <y>840</y>
+        <width>80</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Software Interface/Individual Functions Page/Icons &amp; Logos/Go-Icon (1).png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="left_label_icon_2">
+      <property name="geometry">
+       <rect>
+        <x>796</x>
+        <y>840</y>
+        <width>80</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Software Interface/Individual Functions Page/Icons &amp; Logos/Turn-Left (1).png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="run_led_label_1">
+      <property name="geometry">
+       <rect>
+        <x>677</x>
+        <y>965</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="left_led_label_1">
+      <property name="geometry">
+       <rect>
+        <x>829</x>
+        <y>965</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="right_led_label_1">
+      <property name="geometry">
+       <rect>
+        <x>975</x>
+        <y>965</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1517</width>
+        <height>187</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Software Interface/Home Page/Icons &amp; Logos/FunctionPage_Label.jpg</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="readngo_bot_status">
+      <property name="geometry">
+       <rect>
+        <x>297</x>
+        <y>220</y>
+        <width>287</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #642c99, stop:1 #3f1368);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="readngo_botcam_status">
+      <property name="geometry">
+       <rect>
+        <x>947</x>
+        <y>220</y>
+        <width>287</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #642c99, stop:1 #3f1368);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="run_label_2">
+      <property name="geometry">
+       <rect>
+        <x>661</x>
+        <y>930</y>
+        <width>50</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);font: 12pt &quot;Railway&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Run&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="stop_label_2">
+      <property name="geometry">
+       <rect>
+        <x>506</x>
+        <y>930</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);font: 12pt &quot;Railway&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Stop&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="right_label_2">
+      <property name="geometry">
+       <rect>
+        <x>947</x>
+        <y>930</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);font: 12pt &quot;Railway&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Right&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="left_label_2">
+      <property name="geometry">
+       <rect>
+        <x>806</x>
+        <y>930</y>
+        <width>60</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);font: 12pt &quot;Railway&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Left&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>966</x>
+        <y>300</y>
+        <width>250</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: #302c4c;
+font: 57 12pt &quot;Poppins Medium&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;I'm AI - Lite&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>316</x>
+        <y>300</y>
+        <width>250</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: #302c4c;
+font: 57 12pt &quot;Poppins Medium&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Hi! Show me a Text&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Object Tracker</string>
+     </attribute>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1517</width>
+        <height>187</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>Software Interface/Home Page/Icons &amp; Logos/FunctionPage_Label.jpg</pixmap>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>400</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 85, 255);
+background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #642c99, stop:1 #3f1368);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="magic_hand_button">
+    <property name="geometry">
+     <rect>
+      <x>65</x>
+      <y>311</y>
+      <width>272</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Railway&quot;;
+background-color:#582c74;
+color: rgb(255, 255, 255);
+border-radius: 7px;
+padding-left: 20px; /* Adjust the left padding */
+padding-right: 20px; /* Adjust the right padding */</string>
+    </property>
+    <property name="text">
+     <string>     Magic Hands</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Software Interface/Home Page/Icons &amp; Logos/Magic Hands White.svg</normaloff>Software Interface/Home Page/Icons &amp; Logos/Magic Hands White.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="traffic_signs_button">
+    <property name="geometry">
+     <rect>
+      <x>65</x>
+      <y>472</y>
+      <width>272</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Railway&quot;;
+background-color:#582c74;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string>     Read 'n' Go</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Software Interface/Home Page/Icons &amp; Logos/Ready'n'Go White.svg</normaloff>Software Interface/Home Page/Icons &amp; Logos/Ready'n'Go White.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="commander_button">
+    <property name="geometry">
+     <rect>
+      <x>65</x>
+      <y>630</y>
+      <width>272</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Railway&quot;;
+background-color:#582c74;
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string>     Traffic Signs</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Software Interface/Home Page/Icons &amp; Logos/Traffic Sign White.svg</normaloff>Software Interface/Home Page/Icons &amp; Logos/Traffic Sign White.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>76</x>
+      <y>230</y>
+      <width>250</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 81 12pt &quot;Poppins ExtraBold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;What can we do?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="windows_button">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>76</y>
+      <width>60</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Software Interface/Home Page/Icons &amp; Logos/Home.svg</normaloff>Software Interface/Home Page/Icons &amp; Logos/Home.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="close_button">
+    <property name="geometry">
+     <rect>
+      <x>1830</x>
+      <y>76</y>
+      <width>60</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Ui_Images/Exit.png</normaloff>Ui_Images/Exit.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="full_charge">
+    <property name="geometry">
+     <rect>
+      <x>174</x>
+      <y>120</y>
+      <width>60</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Software Interface/Home Page/Icons &amp; Logos/full_charge-removebg-preview (1).png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="half_charge">
+    <property name="geometry">
+     <rect>
+      <x>174</x>
+      <y>120</y>
+      <width>60</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Software Interface/Home Page/Icons &amp; Logos/half_charge-removebg-preview (1).png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="low_charge">
+    <property name="geometry">
+     <rect>
+      <x>174</x>
+      <y>120</y>
+      <width>60</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Software Interface/Home Page/Icons &amp; Logos/low_charge-removebg-preview (1).png</pixmap>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
